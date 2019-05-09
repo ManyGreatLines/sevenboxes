@@ -1,0 +1,87 @@
+* {                                 /*Rules for the whole document*/
+    margin: 0px;                    /*Resets user agents styling*/
+    padding: 0px;                   /*Resets user agents styling*/
+    box-sizing: border-box;         /*includes padding and borders in box calculation*/
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: Helvetica;
+
+}
+
+#container {
+    background-color: white;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: #0e0e80;
+    color: white;
+    height: 80px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    
+}
+
+#content {
+    padding: 40px 100px;
+    text-align: center;
+    
+
+}
+.box1,.box2,.box3,.box4  {
+    width: 300px;
+    height: 300px;
+    border: solid 2px #800e0e;
+    margin: 20px;
+}
+
+.box1 {
+    float: left;
+}
+
+.box2 {
+    float: right;
+}
+
+.box3 {
+    float: left;
+}
+
+.box4 {
+    float: right;
+}
+
+#miniboxes {
+    text-align: center;
+
+
+}
+
+.minibox1,.minibox2,.minibox3 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: solid 2px #800e0e;
+    text-align: center;
+    margin: 40px;
+    
+
+
+}
+
+
+
+
+#footer {
+    clear: both;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
